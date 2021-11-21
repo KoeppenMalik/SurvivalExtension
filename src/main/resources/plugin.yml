@@ -1,0 +1,21 @@
+name: SurvivalExtension
+version: '${project.version}'
+main: de.malik.survivalextension.SurvivalExtension
+api-version: 1.17
+commands:
+  money:
+  pay:
+    permission: survivalex.pay
+    permission-message: '§9Du hast keine Rechte'
+  gm:
+    permission: survivalex.gamemode
+    permission-message: '§9Du hast keine Rechte'
+  shop:
+    permission: survivalex.shop
+    permission-message: '§9Du hast keine Rechte'
+  home:
+    permission: survivalex.home
+    permission-message: '§9Du hast keine Rechte'
+  sethome:
+    permission: survivalex.sethome
+    permission-message: '§9Du hast keine Rechte'
